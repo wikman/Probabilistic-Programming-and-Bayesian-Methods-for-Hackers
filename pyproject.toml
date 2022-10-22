@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ppl"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyterlab = "*"
+ipython = "*"
+ipympl = "*"
+ipywidgets = "*"
+pymc3 = "*"
+numpyro = "*"
+numpy = "*"
+scipy = "*"
+pandas = "*"
+scikit-learn = "*"
+matplotlib = "*"
+seaborn = "*"
+ 
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
